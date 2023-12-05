@@ -1,0 +1,141 @@
+@media (max-width: 1440px) {
+  .container-navbar {
+    height: 10vh;
+  }
+  .logo-selfcare img {
+    width: 8vw;
+  }
+  .navbar img {
+    width: 1.5vw;
+    margin: 0 0.8rem;
+  }
+  .newsletter-input-group button {
+    height: 2.1rem;
+  }
+  .container-footer {
+    margin-bottom: 1.4rem;
+    padding-bottom: 2rem;
+  }
+  .navbar-footer a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .overlay {
+    height: 34vh;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .logo-selfcare img {
+    width: 12vw;
+  }
+  .navbar img {
+    width: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .overlay {
+    height: 25vh;
+  }
+  .icons-social img {
+    width: 2vw;
+  }
+  .navbar-footer a {
+    font-size: 1rem;
+  }
+  .newsletter-input-group button {
+    font-size: 0.8rem;
+  }
+  .navbar img {
+    width: 2vw;
+  }
+  .logo-selfcare img {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-selfcare img {
+    width: 16vw;
+  }
+
+  .navbar img {
+    width: 1.5rem;
+  }
+
+  .container {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+  button:hover {
+    background-color: #5ca720;
+  }
+  .overlay {
+    width: 100%;
+    height: 16rem;
+  }
+  .overlay:hover::before {
+    display: none;
+  }
+  .overlay:hover {
+    display: block;
+  }
+  .container-footer {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter-form {
+    width: 60vw;
+    margin-top: 3rem;
+  }
+  .newsletter-input-group button {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    width: 16rem;
+    border-radius: 0.3rem;
+  }
+  .newsletter-input-group input {
+    width: 80%;
+    padding: 1rem;
+  }
+  .icons-social img {
+    width: 3.5vw;
+  }
+  .content h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-navbar {
+    flex-direction: column;
+    padding: 4rem;
+  }
+  .logo-selfcare img {
+    width: 30vw;
+    margin-bottom: 1rem;
+  }
+  .newsletter-input-group {
+    flex-direction: column;
+  }
+  .newsletter-input-group input {
+    width: 100%;
+  }
+  .newsletter-input-group button {
+    margin-left: 0;
+    width: 30vw;
+    margin-top: 1rem;
+  }
+  .icons-social img {
+    width: 8vw;
+  }
+  .payments img {
+    width: 6vw;
+  }
+}

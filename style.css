@@ -1,0 +1,269 @@
+/******
+RESET
+******/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+/******
+HEADER
+******/
+
+.container-navbar {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-selfcare {
+  width: 30vw;
+}
+
+.logo-selfcare img {
+  width: 5vw;
+}
+
+.navbar img {
+  width: 1.2vw;
+  margin: 0 0.8rem;
+}
+
+.banner-header img {
+  width: 100%;
+}
+
+/******
+MAIN
+******/
+
+.title-promotions {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 57px;
+  border-bottom: 1px solid #a5a1a180;
+}
+
+.title-promotions h2 {
+  width: 37%;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.title-promotions p {
+  font-size: 18px;
+}
+
+.section-products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.overlay {
+  position: relative;
+  width: 20.8vw;
+  height: 38vh;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.content img {
+  width: 100%;
+  margin-bottom: 1.44rem;
+}
+
+.content h3 {
+  color: #161616;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.content span {
+  color: #5ca720;
+  border-bottom: 1px solid #5ca720;
+}
+
+.content button {
+  width: 10rem;
+  height: 2.8rem;
+  border-radius: 0.9rem;
+  background-color: #5ca720;
+  color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #522200bf;
+  color: #fff;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  border-radius: 0.3rem;
+  background-color: #5ca720b0;
+  transition: top 0.5s ease;
+  cursor: pointer;
+}
+
+.overlay:hover::before {
+  top: 0;
+}
+
+/******
+FOOTER
+******/
+
+footer {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-top: 1rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #a5a1a180;
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-footer a {
+  color: #161616;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s ease;
+  margin: 0.5rem 0;
+}
+
+.navbar-footer a:hover {
+  color: #5ca720;
+}
+
+.newsletter-form {
+  width: 25vw;
+  height: 17vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.newsletter-form label {
+  color: #161616;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+  margin: 0.8rem 0;
+  cursor: pointer;
+}
+
+.newsletter-input-group {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+}
+
+.newsletter-input-group input {
+  width: 60%;
+  height: 4.4vh;
+  border-radius: 0.3rem;
+  border: 0.5px solid #d9d9d9;
+  background-color: #fff;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.newsletter-input-group input:focus {
+  outline: 0;
+  border-color: #5ca720;
+}
+
+.newsletter-input-group button {
+  width: 8vw;
+  height: 2.5rem;
+
+  border-radius: 0rem 0.3rem 0.3rem 0rem;
+  background-color: #5ca720;
+  color: #fff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.content-icons-footer {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons-social {
+  width: 15vw;
+}
+
+.icons-social img {
+  width: 1.6vw;
+  margin: 0 1rem 0 0;
+}
+
+.payments {
+  width: 25vw;
+  display: flex;
+  justify-content: end;
+}
+
+.payments img {
+  margin: 0 0 0 1.5rem;
+}
+
+.icon-mastercard {
+  width: 2.2vw;
+}
+
+.icon-paypal {
+  width: 1.6vw;
+}
+
+.icon-visa {
+  width: 4vw;
+}
