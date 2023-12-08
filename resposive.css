@@ -129,13 +129,26 @@
   }
   .newsletter-input-group button {
     margin-left: 0;
-    width: 30vw;
+    width: 100%;
     margin-top: 1rem;
+  }
+  .icons-social {
+    width: 25vw;
+  }
+  .payments {
+    width: 65vw;
   }
   .icons-social img {
     width: 8vw;
   }
-  .payments img {
-    width: 6vw;
+  .icon-visa {
+    width: 13vw;
+    margin-bottom: 1rem;
+  }
+  .icon-paypal {
+    width: 5vw;
+  }
+  .icon-mastercard {
+    width: 11vw;
   }
 }
